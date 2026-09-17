@@ -53,25 +53,7 @@ Open the localhost link shown in the terminal.
 
 No backend and no hardcoded weather values are used.
 
-## Simple Viva Explanation
 
-Q: What is React?
-A: React is a JavaScript library used to build user interfaces.
-
-Q: Why did you use useState?
-A: useState stores changing values such as city, weather data, loading status, and errors.
-
-Q: Why did you use useEffect?
-A: useEffect runs the initial weather request when the component loads.
-
-Q: What API is used?
-A: Open-Meteo is used for geocoding and weather forecast data.
-
-Q: Why is the Geocoding API needed?
-A: Weather data needs latitude and longitude, so the city name is first converted into coordinates.
-
-Q: What happens if the city is invalid?
-A: An error message is displayed using error state and conditional rendering.
 
 Q: Is a backend used?
 A: No. The React application directly calls the Open-Meteo APIs.
